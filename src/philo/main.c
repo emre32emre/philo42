@@ -6,7 +6,7 @@
 /*   By: mkocabas <mkocabas@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/15 11:16:54 by mkocabas          #+#    #+#             */
-/*   Updated: 2023/04/15 11:22:00 by mkocabas         ###   ########.fr       */
+/*   Updated: 2023/04/15 14:57:33 by mkocabas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,5 +14,6 @@
 
 int	main(void)
 {
-	printf("merhaba \n");
+	second_counter(3);
+	milisecond_counter(100);
 }

@@ -3,9 +3,10 @@ NAME = philo
 DIR_SRC = src
 DIR_OBJ = temp
 HEADERS = includes
-FLAGS = -Wall -Wextra -Werror
+FLAGS = #-Wall -Wextra -Werror
 
-SOURCES = philo/main.c
+SOURCES =	philo/main.c \
+			philo/time.c 
 
 SRCS = $(addprefix $(DIR_SRC)/, $(SOURCES))
 OBJS = $(addprefix $(DIR_OBJ)/, $(SOURCES:.c=.o))
